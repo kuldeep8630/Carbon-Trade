@@ -1,123 +1,56 @@
-🌱 Carbon-Trade
-Decentralized Carbon Credit Verification and Trading Platform
-📌 Overview
+# 🌱 Carbon-Trade  
+### Decentralized Carbon Credit Verification and Trading Platform
 
-Carbon-Trade is a decentralized web application designed to verify, tokenize, trade, and retire carbon credits using blockchain technology.
-The platform eliminates issues present in traditional carbon markets such as double counting, lack of transparency, centralized control, and fraudulent credits.
+## 📌 Overview
+**Carbon-Trade** is a decentralized web application designed to verify, tokenize, trade, and retire carbon credits using blockchain technology.  
+The platform addresses major issues in traditional carbon markets such as lack of transparency, centralized control, double counting, and fraudulent credits.
 
-By leveraging smart contracts, IPFS, and Supabase, Carbon-Trade ensures trustless verification, immutable records, and peer-to-peer trading of carbon credits.
+This project is developed as a **final-year major project** and a **portfolio-grade blockchain application**.
 
-This project is developed as a major academic project / research-oriented blockchain application and also serves as a production-grade portfolio project.
+---
 
-🎯 Key Objectives
+## 🎯 Objectives
+- Transparent carbon credit lifecycle management  
+- Decentralized verification and issuance  
+- Peer-to-peer carbon credit trading  
+- Immutable storage of verification data  
+- Wallet-based authentication  
+- Secure credit retirement mechanism  
 
-Transparent carbon credit lifecycle tracking
+---
 
-Decentralized verification & issuance
+## 🧩 Features
+- Wallet-based authentication (MetaMask)
+- Verified carbon credit issuance
+- IPFS-based document storage
+- Decentralized marketplace
+- On-chain credit retirement
+- Secure and transparent transactions
 
-Secure peer-to-peer trading
+---
 
-Immutable storage of verification documents
+## 🛠️ Tech Stack
 
-Wallet-based authentication
+### Frontend
+- React (TypeScript)
+- Vite
+- Tailwind CSS
+- Ethers.js
 
-Credit retirement to prevent reuse
+### Blockchain
+- Solidity
+- Ethereum / Polygon
+- MetaMask
 
-🏗️ System Architecture
-User (Browser)
-   │
-   │  React + TypeScript (Vite)
-   ▼
-Frontend UI  ───── Wallet (MetaMask)
-   │
-   │ API Calls
-   ▼
-Supabase (Auth + DB)
-   │
-   │ Metadata Hashes
-   ▼
-IPFS (via Pinata)
-   │
-   │ Smart Contract Calls
-   ▼
-Polygon / Ethereum Blockchain
-   │
-   └── CarbonCredit.sol
+### Backend / Services
+- Supabase (Authentication & Database)
+- IPFS (Pinata)
 
-🔁 Carbon Credit Lifecycle
+---
+### 🚀 Getting Started
+- git clone https://github.com/kuldeep8630/Carbon-Trade.git
+- cd Carbon-Trade
+- npm install
+- npm run dev
 
-Project Registration – Carbon project details submitted
 
-Verification – Verified authority validates project
-
-Tokenization – Carbon credits minted as blockchain tokens
-
-Marketplace Trading – Credits traded P2P
-
-Retirement – Credits permanently retired after use
-
-🧩 Core Features
-🔐 Authentication
-
-Wallet-based authentication
-
-Supabase user management
-
-Protected routes for authorized users
-
-📄 Verification & Tokenization
-
-Verified carbon projects only
-
-Smart contract–controlled issuance
-
-Immutable metadata stored on IPFS
-
-🛒 Marketplace
-
-List carbon credits for sale
-
-Buy credits directly using wallet
-
-Transparent on-chain transactions
-
-♻️ Credit Retirement
-
-Prevents double usage of credits
-
-Retirement permanently recorded on blockchain
-
-🛠️ Tech Stack
-Frontend
-
-React (TypeScript)
-
-Vite
-
-Tailwind CSS
-
-Ethers.js
-
-Blockchain
-
-Solidity
-
-Ethereum / Polygon
-
-MetaMask
-
-Backend / Services
-
-Supabase (Auth + Database)
-
-IPFS (Pinata)
-
-Tooling
-
-Vite
-
-TypeScript
-
-ESLint
-
-Git & GitHub
